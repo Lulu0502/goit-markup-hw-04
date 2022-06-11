@@ -514,6 +514,7 @@ h1, h2, h3, h4, h5, h6, p {
 .footer-soc-link:focus .footer-link-icon {
     fill: #2196f3;
 }
+
 .footer-link-icon {
     display: flex;
     align-items: center;
