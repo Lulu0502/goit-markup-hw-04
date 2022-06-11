@@ -491,18 +491,12 @@ h1, h2, h3, h4, h5, h6, p {
     color: #ffffff;
 }
 .footer-link-item {
-    display: block;
+    display: flex;
     margin-right: 10px;
     width: 44px;
     height: 44px;
-    justify-content: center;
-    align-items: center;
     
     fill: currentColor;
-}
-.footer-link-item:hover,
-.footer-link-item:focus {
-    color: #2196f3;
 }
 .footer-link-item:last-child {
     margin-right: 0px;
@@ -514,13 +508,18 @@ h1, h2, h3, h4, h5, h6, p {
     width: 100%;
     height: 100%;
     border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.footer-soc-link:hover .footer-link-icon ,
+.footer-soc-link:focus .footer-link-icon {
+    fill: #2196f3;
 }
 .footer-link-icon {
     display: flex;
     align-items: center;
     justify-content: center;
+    fill: #ffffff;
 }
-
 
 
                                                    /*-------PORTFOLIO-------*/
