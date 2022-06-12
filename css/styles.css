@@ -498,7 +498,9 @@ h1, h2, h3, h4, h5, h6, p {
     height: 44px;
     fill: currentColor;
 }
-
+.footer-link-item:last-child {
+    margin-right: 0px;
+}
 .footer-soc-link {
     display: flex;
     align-items: center;
