@@ -473,8 +473,6 @@ h1, h2, h3, h4, h5, h6, p {
 .footer-soc {
     display: block;
     margin: 0px;
-    width: 206px;
-    height: 80px; 
 }
 .title-footer {
     margin-top: 0px;
@@ -515,9 +513,6 @@ h1, h2, h3, h4, h5, h6, p {
     fill: #2196f3;
 }
 .footer-link-icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     fill: #ffffff;
 }
 
