@@ -420,8 +420,9 @@ h1, h2, h3, h4, h5, h6, p {
     padding-bottom: 60px;
     background-color: #2F303A;
 }
-.footer-box {
+.footer-container {
     display: flex;
+    align-items: baseline;
 }
 .logo-footer {
     margin-top: 60px;
@@ -509,9 +510,9 @@ h1, h2, h3, h4, h5, h6, p {
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.1);
 }
-.footer-soc-link:hover .footer-link-icon ,
-.footer-soc-link:focus .footer-link-icon {
-    fill: #2196f3;
+.footer-soc-link:hover ,
+.footer-soc-link:focus {
+    background-color: #2196f3;
 }
 .footer-link-icon {
     fill: #ffffff;
