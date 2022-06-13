@@ -362,10 +362,7 @@ h1, h2, h3, h4, h5, h6, p {
     margin-right: 0px;
 }
                                    /*------Clients--------*/                           
- .clients {
-   margin: 0px 0px;
-   padding-bottom: 0px;
- }
+
  .clients-container {
     align-items: center;
     text-align: center;
@@ -384,21 +381,18 @@ h1, h2, h3, h4, h5, h6, p {
  }
  .clients-list {
     display: flex;
-    margin-bottom: 94px;
     align-items: center;
-    text-align: center;
-    color: #AFB1B8;
+    
  }
  .clients-item {
-     display: block;
-     margin-left: 0px;
+     display: flex;
      margin-right: 30px;
-     padding: 16px 32px;
      justify-content: center;
      align-items: center;
 
-     max-width: 170px;
+     width: 170px;
      height: 92px;
+     color: #AFB1B8;
      border: 1px solid #AFB1B8;
      border-radius: 4px;
  }
@@ -425,7 +419,7 @@ h1, h2, h3, h4, h5, h6, p {
     align-items: baseline;
 }
 .footer-box {
-    display: block;
+    margin-right: 70px;
 }
 .logo-footer {
     margin-top: 60px;
@@ -452,9 +446,7 @@ h1, h2, h3, h4, h5, h6, p {
     letter-spacing: 0.03em;
     color: #ffffff;
 }
-.footer-address {
-    margin-right: 70px;
-}
+
 .contacts-footer {
     display: inline-block;
     font-style: normal;
